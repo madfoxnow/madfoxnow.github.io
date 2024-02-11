@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    width: 100%;
+    background-color: #f39c12;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+p {
+    padding: 1rem;
+}
+
+img {
+    width: 350px;
+}
+
+header {
+    height: 25rem;
+    background-image: url(../images/fitsum-admasu-oGv9xIl7DkY-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.club-title {
+    position: relative;
+    top: 10rem;
+    padding: 1em;
+    color: #f39c12;
+    text-align: center;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 50%);
+}
+
+nav {
+    height: 5rem;
+    background-color: darkseagreen;
+}
+
+nav li {
+    display: inline;
+    position: relative;
+    top: 2rem;
+    padding: 2rem;
+}
+
+nav a {
+    color: black
+}
+
+.section-1 {
+    margin-top: 4rem;
+}
+
+.section-1 h2 {
+    color: yellow
+}
+
+.section-1 p {
+    color: white;
+}
+
+.section-2 {
+    color: yellow;
+    background-color: green;
+    padding: 5rem 0rem 5rem 0rem;
+}
+
+.section-3 h2 {
+    color: yellow;
+    text-align: center;
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.section-photo {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 3rem auto;
+}
+    
+.section-photo img {
+        flex: 0 0 33.33%;
+        padding: 1.3rem;
+    }
+
+.section3-photo {
+        display: flex;
+        justify-content: center;
+}
+
+.section3-photo img {
+    flex: 1 1;
+    height: auto;
+    margin:  0rem 5rem;
+}
+
+@media only screen and (max-width: 640px) {
+    nav li {
+        position: relative;
+        top: 0;
+        display: block;
+        text-align: center;
+        padding: 0.3rem;
+    }
+}
